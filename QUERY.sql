@@ -88,7 +88,7 @@ INSERT INTO Bookings (booking_id, user_id, match_id, seat_number, payment_status
 (505, 3, 102, 'C-20', 'Pending', 120.00);
 
 
-Query 1: 
+-- Query 1: 
 SELECT
     match_id,
     fixture,
@@ -98,3 +98,15 @@ FROM
 WHERE
     tournament_category = 'Champions League'
     AND match_status = 'Available';
+
+
+-- Query 2:
+SELECT
+    user_id,
+    full_name,
+    email
+FROM
+    users
+WHERE
+    full_name ILIKE 'Tanvir%'
+    OR full_name ILIKE '%Haque%';
