@@ -182,7 +182,7 @@ Overall, this project strengthened my confidence in database design concepts and
 
 **Submitted By:** *Sanjit Sarkar*
 
-**GitHub Repository:** *[\[Add Repository Link Here\]](https://github.com/GitHub-Sanjit/Assignment-RDBMS)*
+**GitHub Repository:** *[\[Add Repository Link\]](https://github.com/GitHub-Sanjit/Assignment-RDBMS)*
 
 
 ---
